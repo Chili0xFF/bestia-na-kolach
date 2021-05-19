@@ -26,6 +26,7 @@
 7. NONE
 8. Podczepić do Arduino złote (sw_laugh) na PIN 12
 9. Podczepić do mikrofonu na PIN DOUT
+10. Podczepić do przekaźnika. Napierdziela high jak ma jechać
 
 ### Mikrofon
 DOUT - Podczepić do Arduino srebrne (mikrofon-silnik) na PIN 9  
