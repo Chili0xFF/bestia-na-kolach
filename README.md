@@ -2,7 +2,7 @@
 ### tu wrzucam pliki dotyczące projektu arduino do pojazdu na Odyseje Umysłu aby uniknąć kolejnej awarii dysku
 
 ## INSTRUKCJA PODŁĄCZENIA PINÓW:
-### Arduino srebrne (sw_laugh)
+### Arduino złote (sw_laugh)
 1. NONE
 2. Guzik, opisać jako "Śmiech"
 3. Buzzer, pin sterujący
@@ -14,9 +14,9 @@
 9. NONE
 10. NONE
 11. Guzik, opisać jako "Mikrofon"
-12. Podczepić do Arduino złote(mikrofon-silnik) na PIN 8
+12. Podczepić do Arduino srebrne(mikrofon-silnik) na PIN 8
 
-### Arduino złote (mikrofon-silnik)
+### Arduino srebrne (mikrofon-silnik)
 1. NONE
 2. NONE
 3. NONE
@@ -24,11 +24,11 @@
 5. NONE 
 6. NONE
 7. NONE
-8. Podczepić do Arduino srebrne (sw_laugh) na PIN 12
+8. Podczepić do Arduino złote (sw_laugh) na PIN 12
 9. Podczepić do mikrofonu na PIN DOUT
 
 ### Mikrofon
-DOUT - Podczepić do Arduino złote (mikrofon-silnik) na PIN 9  
+DOUT - Podczepić do Arduino srebrne (mikrofon-silnik) na PIN 9  
 AOUT - Zostawić puste  
 GND - Podczepić do uziemienia  
 VCC - Podczepić na 5V  
@@ -36,6 +36,6 @@ VCC - Podczepić na 5V
 ### Buzzer (Od lewej, buzzer nad pinami)
 1. Podczepić do GND
 2. Podczepić do 5V
-3. Podczepić do Arduino srebrne (sw_laugh) na PIN 3
+3. Podczepić do Arduino złote (sw_laugh) na PIN 3
 
 W razie problemów z podłączeniem, pisz na mess
