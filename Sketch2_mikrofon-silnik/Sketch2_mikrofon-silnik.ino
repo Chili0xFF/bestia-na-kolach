@@ -6,6 +6,7 @@ void setup()
   pinMode(arduino_1,INPUT); ///Input z pierwszego arduino. Jeśli 1, uruchamia wykrywanie mikrofonu
   pinMode(10,OUTPUT);
   pinMode(9,INPUT);
+  digitalWrite(micro_out,LOW);
   Serial.begin(9600);
 }
 
@@ -16,8 +17,8 @@ void loop()
     microphone(micro_in,micro_out);
   }
   else{
-    //digitalWrite(9,LOW);
-    Serial.println("Mikrofon nie wykrywa");
+    digitalWrite(micro_out,LOW);
+    Serial.println("Mikrofon jest wylaczony");
   }
 }
 void microphone(int in, int out){
@@ -29,7 +30,7 @@ void microphone(int in, int out){
       delay(3000);
       }
      else if(val==1){
-      Serial.println("Nie jedziemy!");
+      Serial.println("Stoi");
       digitalWrite(out,LOW);
       }
   }
